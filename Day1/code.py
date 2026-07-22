@@ -1,6 +1,5 @@
 import os
 
-# Create the file only if it doesn't already exist
 if not os.path.exists("warehouse_management_system.txt"):
 
     file = open("warehouse_management_system.txt", "w")
@@ -23,7 +22,7 @@ if not os.path.exists("warehouse_management_system.txt"):
 
 products = []
 
-# Load products from file
+
 file = open("warehouse_management_system.txt", "r")
 
 for line in file:
@@ -73,7 +72,7 @@ def add_item():
 
     products.append([item_id, item_name])
 
-    # Save immediately to file
+    
     file = open("warehouse_management_system.txt", "a")
     file.write(f"{item_id},{item_name}\n")
     file.close()
@@ -96,7 +95,7 @@ def delete_item():
 
     if found:
 
-        # Rewrite the file after deletion
+       
         file = open("warehouse_management_system.txt", "w")
 
         for product in products:
@@ -168,7 +167,7 @@ def generate_report():
 
 while True:
 
-    print("\n========== Warehouse Management ==========")
+    print("\n========== Warehouse Management =========")
     print("1. Search Product")
     print("2. Add Product")
     print("3. Delete Product")
