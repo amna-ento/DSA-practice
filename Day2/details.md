@@ -9,7 +9,7 @@ The system should allow hospital staff to:
 - Register a new patient.
 - Add emergency patients with higher priority.
 - Search for a patient using their Patient ID.
-- Treat (remove) the next patient from the waiting list.
+- Treat the next patient from the waiting list.
 - Undo the last registration or treatment operation.
 - Manage ambulance or treatment room slots using a Circular Queue.
 - Rearrange patients when required using a Deque.
