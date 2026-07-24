@@ -7,12 +7,12 @@ Develop a simple **Hospital Emergency Management System** for managing patients 
 - Register a new patient.
 - Register an emergency patient.
 - Search for a patient using their Patient ID.
-- Allocate an available treatment room.
-- Display all waiting patients.
-- Display all emergency patients.
-- Sort waiting patients in ascending order of Patient ID.
-- Sort waiting patients by Arrival Time.
-- Generate a complete hospital management report.
+- Treat the next patient from the waiting list.
+- Undo the last registration or treatment operation.
+- Manage ambulance or treatment room slots using a Circular Queue.
+- Rearrange patients when required using a Deque.
+- Generate a report of all waiting and treated patients.
+- Sort patient records (without using built-in `sort()`) based on Patient ID, arrival time, or severity.
 
 The implementation should focus on applying fundamental Data Structures and Algorithms concepts without relying on built-in sorting methods.
 
