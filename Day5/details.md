@@ -13,8 +13,6 @@ Develop a **Train Reservation System** where passengers can:
 - Automatically assign an available seat to the first passenger in the waiting list after a cancellation.
 - Prevent duplicate reservations using unique Passenger IDs.
 
-The implementation focuses on applying fundamental **Data Structures and Algorithms (DSA)** concepts without relying on built-in mechanisms beyond the required data structures.
-
 ---
 
 ## DSA Topics Covered
@@ -25,10 +23,3 @@ The implementation focuses on applying fundamental **Data Structures and Algorit
 - Hash Functions
 - Collision Handling (Chaining)
 - Collision Handling (Linear Probing)
-- Queue (`collections.deque`)
-- Arrays (Python Lists)
-- Dictionary Operations
-- Set Operations
-- Classes & Objects (OOP)
-- Functions / Modular Programming
-- Basic Time Complexity Analysis (O(1) Average Case Operations)
