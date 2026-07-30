@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Develop a simple **Graph Traversal System** using an adjacency list representation. The program should:
+Develop a simple **N-Queens Puzzle** using an adjacency list representation. The program should:
 
 - Create a graph using an adjacency list.
 - Allow the user to define connections between vertices.
